@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+
+    height: auto;
+
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(222, 64%, 81%);
+
+    font-weight: 700;
+}
+
+h1{
+    text-align: center;   
+}
+
+.description{
+    text-align: center;
+    padding: 10px;
+}
+
+.container{
+    background-color: white;
+    border-radius: 20px;
+    width: 450px;
+    margin: 50px auto;
+}
+
+.container1{
+    padding: 25px;
+}
+
+.plan{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(224, 33%, 82%);
+    /* width: 80%; */
+    margin: 20px;
+    height: 60px;
+
+}
+
+#plan1{
+    width: 58px;
+    height: 58px;
+}
+
+.plan a{
+    position: relative;
+    left: 260px;
+    bottom: 130px;
+}
+
+.plan-p1{
+    width: fit-content;
+    position: relative;
+    left: 70px;
+    bottom: 77px;
+}
+
+.annual{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+#image1{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/* BUTTONS */
+
+.payment_button{
+    padding: 20px;
+    text-align: center;
+}
+
+.payment_button button{
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(1, 1, 197);
+    border: 0px;
+    width: 350px;
+    height: 45px;
+    font-weight: bolder;
+}
+
+.payment_button button:hover{
+    cursor: pointer;
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+
+
+.cancel_button{
+    text-align: center;
+    padding: 10px;
+    /* font-weight: 700; */
+}
+
+.cancel_button a:hover{
+    cursor: pointer;
+
+}
